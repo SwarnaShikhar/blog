@@ -1,17 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+```markdown
+# Next.js Project
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`].
 
 ## Getting Started
 
 First, run the development server:
 
-```bash
+git clone https://github.com/SwarnaShikhar/blog.git
+cd blog
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -20,14 +19,35 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+### Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project uses [Tailwind CSS](https://tailwindcss.com/) for designing. Tailwind CSS is a utility-first CSS framework that allows for rapid UI development.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### shadcn/ui
+
+For a UI component library, we have integrated [shadcn/ui](https://shadcn.dev/). This library provides a set of high-quality, customizable components that work seamlessly with Tailwind CSS.
+
+### Dark Mode
+
+Dark mode has been implemented using the [`next-themes`](https://github.com/pacocoursey/next-themes) library. This allows users to toggle between light and dark themes, enhancing the user experience in different lighting conditions.
+
+### Mobile Responsive
+
+The application is fully mobile responsive, ensuring a smooth and consistent experience across all device sizes.
+
+### Reusable Components
+
+We have created reusable components for the blog and post cards. This promotes code reusability and makes the application easier to maintain and extend.
+
+### Dynamic Content
+
+All the content inside the blog and post sections comes from the `blogData.json` and `postData.json` files. This makes it easy to manage and update content without modifying the code.
+
+### Google Fonts
+
+We have used Google Fonts to enhance the typography of the application, providing a clean and professional look.
 
 ## Deploy on Vercel
 
