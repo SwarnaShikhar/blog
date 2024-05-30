@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "link": "/work5.png",
+        "title": "Designing Landing pages",
+        "year": "2020",
+        "type": "Website",
+        "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+        "id": 2,
+        "link": "/work2.png",
+        "title": "Vibrant Portraits of 2020",
+        "year": "2018",
+        "type": "Illustration",
+        "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+        "id": 3,
+        "link": "/work4.png",
+        "title": "Components",
+        "year": "2018",
+        "type": "Components, Design",
+        "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+        "id": 4,
+        "link": "/work3.png",
+        "title": "36 days of Malayalam type",
+        "year": "2018",
+        "type": "Typography",
+        "desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    }
+]

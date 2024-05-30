@@ -10,8 +10,8 @@ export default function Navbar() {
 
     const menus = [
         { title: "Home", path: "/" },
-        { title: "Blog", path: "/blog" },
         { title: "Works", path: "/works" },
+        { title: "Blog", path: "/blog" },
         { title: "Contact", path: "/contact" }
     ]
 
@@ -21,7 +21,7 @@ export default function Navbar() {
                 <div className="flex justify-end items-center gap-3 py-3 md:py-5 md:block">
                     <div className="md:hidden">
                         <button
-                            className={`text-gray-700 outline-none p-2 rounded-md transform transition-transform duration-300 ${state ? "rotate-90" : "rotate-0"}`}
+                            className="text-gray-700 outline-none p-2 rounded-md"
                             onClick={() => setState(!state)}
                         >
                             <Menu className="size-12" />
@@ -33,7 +33,7 @@ export default function Navbar() {
                 >
                     <ul className="justify-end items-center gap-5 space-y-8 md:flex md:space-x-6 md:space-y-0">
                         {menus.map((item, idx) => (
-                            <li key={idx} className="text-black font-bold dark:text-white text-xl hover:text-indigo-600">
+                            <li key={idx} className="text-black font-bold dark:text-white text-xl hover:text-[#8695A4] dark:hover:text-[#272829]">
                                 <Link href={item.path}>{item.title}</Link>
                             </li>
                         ))}

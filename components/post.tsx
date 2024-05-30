@@ -3,30 +3,18 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
 
-const notifications = [
-    {
-        title: "Making a design system from scratch",
-        subtitle: "12 Feb 2020   |   Design,Pattern",
-        desc: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-    },
-    {
-        title: "Creating pixel perfect icons in Figma",
-        subtitle: "12 Feb 2020   |   Design,Pattern",
-        desc: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
-    }
-]
+import postData from '@/data/postData.json'
 
 type CardProps = React.ComponentProps<typeof Card>
 
 export function Post({ className, ...props }: CardProps) {
     return (
         <div className="justify-between m-6 md:flex md:mx-32 md:gap-4">
-            {notifications.map((data) => {
+            {postData.map((data) => {
                 return (
                     <Card key={data.title} className={cn("w-full pt-5", className)} {...props}>
                         <CardHeader>
